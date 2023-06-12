@@ -15,20 +15,20 @@ const IndexCondesa = () => {
         <figure className='flex justify-between items-center border border-black/60 rounded-lg mb-5 p-5'>
           <div className='flex justify-center items-center'>
             <img src={Alimentos} alt="alimentos"
-              className='h-32 w-32 object-cover' />
-            <p>Alimentos</p>
+              className='h-32 w-32 object-cover mr-4' />
+            <p className='font-bold text-2xl'>Alimentos</p>
           </div>
-          <ChevronRightIcon className="w-6 h-6" />
+          <ChevronRightIcon className="w-20 h-20" />
         </figure>
       </Link>
       <Link to="/condesa/bebidas">
         <figure className='flex justify-between items-center border border-black/60 rounded-lg mb-5 p-5'>
           <div className='flex justify-center items-center'>
             <img src={Bebidas} alt="bebidas"
-              className='h-32 w-32 object-cover' />
-            <p className=''>Bebidas</p>
+              className='h-32 w-32 object-cover mr-8' />
+            <p className='font-bold text-2xl'>Bebidas</p>
           </div>
-          <ChevronRightIcon className="w-6 h-6" />
+          <ChevronRightIcon className="w-20 h-20" />
         </figure>
       </Link>
 
