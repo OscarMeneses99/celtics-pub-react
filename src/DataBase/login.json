@@ -1,0 +1,36 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Oscar",
+            "lastname": "Meneses Reyna",
+            "username": "admin",
+            "password": "caaecfdf2d418328a7133bff84e83713",
+            "perfil": "admin"
+        },
+        {
+            "id": 2,
+            "name": "Juan Luis",
+            "lastname": "Alcaide",
+            "username": "dev",
+            "password": "81dc9bdb52d04dc20036dbd8313ed055",
+            "perfil": "socio"
+        },
+        {
+            "id": 3,
+            "name": "Oscar",
+            "lastname": "Meneses Solís",
+            "username": "dev",
+            "password": "81dc9bdb52d04dc20036dbd8313ed055",
+            "perfil": "cajero"
+        },
+        {
+            "id": 4,
+            "name": "Pedro",
+            "lastname": "Chavez",
+            "username": "mesero",
+            "password": "81dc9bdb52d04dc20036dbd8313ed055",
+            "perfil": "mesero"
+        }
+    ]
+}

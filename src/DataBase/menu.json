@@ -1,0 +1,169 @@
+{
+    "menu": [
+        {
+            "alimentos": [
+                {
+                    "Para picar": [
+                        {
+                            "id": 1,
+                            "title": "Irish Mix",
+                            "description": "Alitas, bombas de papa, papas a la francesa, dedos de queso, nachos, camarones y pescado rebozados, acompañados de salsa tártara y crudités.",
+                            "cant": 580,
+                            "price": 280
+                        },
+                        {
+                            "id": 2,
+                            "title": "Costillas BBQ",
+                            "description": "Acompañadas de papas a la francesa.",
+                            "cant": 500,
+                            "price": 220
+                        },
+                        {
+                            "id": 3,
+                            "title": "Alitas de pollo",
+                            "description": "Marinadas con salsa picante, BBQ, parmesano y ajo, mango habanero o búfalo.",
+                            "cant": [
+                                500,
+                                250
+                            ],
+                            "price": [
+                                240,
+                                195
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "title": "Boneless",
+                            "description": "Aderezo ranch y verduras",
+                            "cant": 280,
+                            "price": 240
+                        },
+                        {
+                            "id": 5,
+                            "title": "Fish & Chips",
+                            "description": "Tiras de pescado rebozado con papas a la francesa y aderezo",
+                            "cant": 300,
+                            "price": 170
+                        },
+                        {
+                            "id": 6,
+                            "title": "Tiras de pollo",
+                            "description": "Aderezadas con Salsa Picante y BBQ",
+                            "cant": 200,
+                            "price": 150
+                        },
+                        {
+                            "id": 7,
+                            "title": "Dedos de queso",
+                            "description": "Acompañados con Salsa de la Casa",
+                            "cant": 200,
+                            "price": 150
+                        },
+                        {
+                            "id": 8,
+                            "title": "Nachos",
+                            "description": "Con queso y chilli",
+                            "cant": 200,
+                            "price": 95
+                        },
+                        {
+                            "id": 9,
+                            "title": "Papas Gajo",
+                            "description": "",
+                            "cant": 350,
+                            "price": 105
+                        },
+                        {
+                            "id": 10,
+                            "title": "Bombas de papa y queso cheddar",
+                            "description": "Acomáñadas con aderezo ranch",
+                            "cant": 270,
+                            "price": 80
+                        },
+                        {
+                            "id": 11,
+                            "title": "Papas a la Francesa",
+                            "description": "",
+                            "cant": 300,
+                            "price": 90
+                        },
+                        {
+                            "id": 12,
+                            "title": "Aceitunas Prepadas",
+                            "description": "",
+                            "cant": 100,
+                            "price": 65
+                        }
+                    ],
+                    "Hamburguesas": [
+                        {
+                            "id": 13,
+                            "title": "Hamburguesa Arrachera",
+                            "description": "Con hongo portobello",
+                            "cant": 130,
+                            "price": 250
+                        },
+                        {
+                            "id": 14,
+                            "title": "Hamburguesa Celtics de Rib Eye",
+                            "description": "",
+                            "cant": 200,
+                            "price": 250
+                        },
+                        {
+                            "id": 15,
+                            "title": "Veggie Burger",
+                            "description": "Elaborada con chicharo, acompañada de aragula y cebolla crujiente",
+                            "cant": 280,
+                            "price": 230
+                        }
+                    ],
+                    "Sandwich&HotDogs": [
+                        {
+                            "id": 16,
+                            "title": "Sandwich de Pollo BBQ",
+                            "description": "Con ensalada de col y aderezo Saracha",
+                            "cant": 220,
+                            "price": 210
+                        },
+                        {
+                            "id": 17,
+                            "title": "Hot Dog con chilli",
+                            "description": "",
+                            "cant": 180,
+                            "price": 165
+                        },
+                        {
+                            "id": 18,
+                            "title": "Hot Dog jumbo",
+                            "description": "",
+                            "cant": 180,
+                            "price": 140
+                        }
+                    ],
+                    "Pizzas": [
+                        {}
+                    ],
+                    "Pastas": [
+                        {}
+                    ],
+                    "Pollo": [
+                        {}
+                    ],
+                    "Tacos": [
+                        {}
+                    ],
+                    "Ensaladas": [
+                        {}
+                    ],
+                    "Adicionales": [
+                        {}
+                    ],
+                    "Postres": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    ]
+}
