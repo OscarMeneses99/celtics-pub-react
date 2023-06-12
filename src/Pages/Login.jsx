@@ -22,16 +22,16 @@ const Login = () => {
         if (user) {
             localStorage.setItem('user', JSON.stringify(user))
             if (user.perfil === 'admin') {
-                window.location.href = '/home'
+                window.location.href = './home'
             }
             if (user.perfil === 'socio') {
-                window.location.href = '/ventas'
+                window.location.href = './ventas'
             }
             if (user.perfil === 'cajero') {
-                window.location.href = '/caja'
+                window.location.href = './caja'
             }
             if (user.perfil === 'mesero') {
-                window.location.href = '/iventario'
+                window.location.href = './iventario'
             }
         }
         else {
