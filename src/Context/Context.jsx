@@ -306,6 +306,718 @@ export const ContextProvider = ({ children }) => {
 
     ]
 
+    const Bebidas = [
+
+        {
+            "title": "Tempus",
+            "category": "De barril",
+            "cantidad": 1000,
+            "price": 210
+        },
+        {
+            "title": "Jabali Hellesbock",
+            "category": "De barril",
+            "cantidad": 1000,
+            "price": 210
+        },
+        {
+            "title": "Tarro",
+            "category": "De barril",
+            "cantidad": 1000,
+            "price": 125
+        },
+        {
+            "title": "Vaso",
+            "category": "De barril",
+            "cantidad": 500,
+            "price": 70
+        },
+        {
+            "title": "Bohemia oscura",
+            "category": "Botella",
+            "cantidad": 355,
+            "price": 60
+        },
+        {
+            "title": "XX Ambar",
+            "category": "Botella",
+            "cantidad": 355,
+            "price": 55
+        },
+        {
+            "title": "XX Lager",
+            "category": "Botella",
+            "cantidad": 355,
+            "price": 55
+        },
+        {
+            "title": "Corona ",
+            "category": "Botella",
+            "cantidad": 355,
+            "price": 55
+        },
+        {
+            "title": "Indio",
+            "category": "Botella",
+            "cantidad": 355,
+            "price": 55
+        },
+        {
+            "title": "Tecate",
+            "category": "Botella",
+            "cantidad": 355,
+            "price": 55
+        },
+        {
+            "title": "Tecate Ligth",
+            "category": "Botella",
+            "cantidad": 355,
+            "price": 55
+        },
+        {
+            "title": "Clamato",
+            "category": "Adicionales",
+            "cantidad": 10,
+            "price": 25
+        },
+        {
+            "title": "Lagrimas Negras",
+            "category": "Artesanal",
+            "cantidad": 355,
+            "price": 140
+        },
+        {
+            "title": "Minerva IPA",
+            "category": "Artesanal",
+            "cantidad": 355,
+            "price": 130
+        },
+        {
+            "title": "Zorra Imperial Peanut",
+            "category": "Artesanal",
+            "cantidad": 355,
+            "price": 130
+        },
+        {
+            "title": "Zorra",
+            "category": "Artesanal",
+            "cantidad": 355,
+            "price": 130
+        },
+        {
+            "title": "Minerva Stout",
+            "category": "Artesanal",
+            "cantidad": 355,
+            "price": 130
+        },
+
+        {
+            "title": "Reina Pale Ale",
+            "category": "Artesanal",
+            "cantidad": 355,
+            "price": 130
+        },
+        {
+            "title": "Kaiju Rice Lager",
+            "category": "Artesanal",
+            "cantidad": 355,
+            "price": 130
+        },
+        {
+            "title": "Reina Session IPA",
+            "category": "Artesanal",
+            "cantidad": 355,
+            "price": 130
+        },
+        {
+            "title": "Jabali Hellesbock",
+            "category": "Artesanal",
+            "cantidad": 355,
+            "price": 130
+        },
+        {
+            "title": "Tempus Dorada",
+            "category": "Artesanal",
+            "cantidad": 355,
+            "price": 100
+        },
+        {
+            "title": "Tempus Cream Stout",
+            "category": "Artesanal ",
+            "cantidad": 355,
+            "price": 100
+        },
+        {
+            "title": "Guinness",
+            "category": "Importadas",
+            "cantidad": 440,
+            "price": 140
+        },
+        {
+            "title": "Delirium Nocturnum",
+            "category": "Importadas",
+            "cantidad": 330,
+            "price": 250
+        },
+        {
+            "title": "Delirium Red",
+            "category": "Importadas",
+            "cantidad": 330,
+            "price": 250
+        },
+        {
+            "title": "London Poter",
+            "category": "Importadas",
+            "cantidad": 500,
+            "price": 260
+        },
+        {
+            "title": "Londo Pride",
+            "category": "Importadas",
+            "cantidad": 500,
+            "price": 260
+        },
+        {
+            "title": "Erdinger Weissbier",
+            "category": "Importadas",
+            "cantidad": 500,
+            "price": 210
+        },
+        {
+            "title": "Paulaner Hefe",
+            "category": "Importadas",
+            "cantidad": 500,
+            "price": 210
+        },
+        {
+            "title": "Stiegl Frambuesa",
+            "category": "Importadas",
+            "cantidad": 500,
+            "price": 130
+        },
+        {
+            "title": "Stella Artois",
+            "category": "Importadas",
+            "cantidad": 330,
+            "price": 80
+        },
+        {
+            "title": "Michelob Ultra",
+            "category": "Importadas",
+            "cantidad": 355,
+            "price": 80
+        },
+        {
+            "title": "Johnny Walker Blue Label",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [650, 8450]
+
+        },
+        {
+            "title": "Johnny Walker Gold Label",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [205, 2660]
+        },
+        {
+            "title": "Johnny Walker Black Label",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [165, 2145]
+        },
+        {
+            "title": "Johnny Walker Red Label",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [100, 1300]
+        },
+        {
+            "title": "Buchanans 18",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [275, 3575]
+        },
+        {
+            "title": "Bucahanas Two Select",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [180, 2340]
+        },
+        {
+            "title": "Buchanans 12",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [160, 2080]
+        },
+        {
+            "title": "Chivas 18",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [710, 9230]
+        },
+        {
+            "title": "Chivas 15",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [285, 3705]
+        },
+        {
+            "title": "Chivas Regal",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [155, 1755]
+        },
+        {
+            "title": "Ballantines",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [120, 1560]
+        },
+        {
+            "title": "Bushmills Black Bush",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [130, 1690]
+        },
+        {
+            "title": "Jameson",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [105, 1365]
+        },
+        {
+            "title": "Jack Daniels Honey",
+            "category": "Whiskey",
+            "cantidad": undefined,
+            "price": [120, 1560]
+        },
+        {
+            "title": "Jack Daniels",
+            "category": "Whiskey",
+            "cantidad": undefined,
+            "price": [120, 1365]
+        },
+        {
+            "title": "Jim Beam",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [95, 1235]
+        },
+        {
+            "title": "Macallan 12",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [285, 3705]
+        },
+        {
+            "title": "Glenfiddch 18",
+            "category": "Whisky",
+            "cantidad": undefined,
+            "price": [280, 3640]
+        },
+        {
+            "title": "Union Viejo",
+            "category": "Mezcal",
+            "cantidad": undefined,
+            "price": [190, 2470]
+        },
+        {
+            "title": "400 Conejos Joven",
+            "category": "Mezcal",
+            "cantidad": undefined,
+            "price": [150, 1950]
+        },
+
+        {
+            "title": "Don Julio 70",
+            "category": "Tequila",
+            "cantidad": undefined,
+            "price": [235, 3055]
+        },
+        {
+            "title": "Don Julio Reposado",
+            "category": "Tequila",
+            "cantidad": undefined,
+            "price": [170, 2210]
+        },
+        {
+            "title": "Don Julio Blanco",
+            "category": "Tequila",
+            "cantidad": undefined,
+            "price": [145, 1885]
+        },
+        {
+            "title": "Avion Cristalino",
+            "category": "Tequila",
+            "cantidad": undefined,
+            "price": [510, 6630]
+        },
+        {
+            "title": "Jose Cuervo Tradicional",
+            "category": "Tequila",
+            "cantidad": undefined,
+            "price": [95, 1690]
+        },
+        {
+            "title": "Maestro Dobel Diamante",
+            "category": "Tequila",
+            "cantidad": undefined,
+            "price": [215, 2800]
+        },
+        {
+            "title": "1800 Añejo",
+            "category": "Tequila",
+            "cantidad": undefined,
+            "price": [160, 2080]
+        },
+        {
+            "title": "1800 Reposado",
+            "category": "Tequila",
+            "cantidad": undefined,
+            "price": [135, 1755]
+        },
+        {
+            "title": "Torres 10",
+            "category": "Brandy",
+            "cantidad": undefined,
+            "price": [95, 1235]
+        },
+        {
+            "title": "Zacapa 23",
+            "category": "Ron",
+            "cantidad": undefined,
+            "price": [220, 2860]
+        },
+        {
+            "title": "Captain Morgan Spiced",
+            "category": "Ron",
+            "cantidad": undefined,
+            "price": [85, 1105]
+        },
+        {
+            "title": "Havana Seleccion",
+            "category": "Ron",
+            "cantidad": undefined,
+            "price": [195, 2535]
+        },
+        {
+            "title": "Havana Club 7 years",
+            "category": "Ron",
+            "cantidad": undefined,
+            "price": [90, 1200]
+        },
+        {
+            "title": "Matusalem Clasico",
+            "category": "Ron",
+            "cantidad": undefined,
+            "price": [90, 1200]
+        },
+        {
+            "title": "Flor De Caña 7",
+            "category": "Ron",
+            "cantidad": undefined,
+            "price": [95, 1250]
+        },
+        {
+            "title": "Bacardi Blanco",
+            "category": "Ron",
+            "cantidad": undefined,
+            "price": [90, 1350]
+        },
+        {
+            "title": "Malibu",
+            "category": "Ron",
+            "cantidad": undefined,
+            "price": [85, 1105]
+        },
+        {
+            "title": "Smirnoff Tamarind0",
+            "category": "Vodka",
+            "cantidad": undefined,
+            "price": [95, 1235]
+        },
+        {
+            "title": "Absolut Sabores",
+            "category": "Vodka",
+            "cantidad": undefined,
+            "price": [95, 1235]
+        },
+        {
+            "title": "Absolut Azul",
+            "category": "Vodka",
+            "cantidad": undefined,
+            "price": [95, 1235]
+        },
+        {
+            "title": "Wyborowa Tamarindo",
+            "category": "Vodka",
+            "cantidad": undefined,
+            "price": [90, 1170]
+        },
+        {
+            "title": "Martell XO",
+            "category": "Cognac",
+            "cantidad": undefined,
+            "price": [920, 11040]
+        },
+        {
+            "title": "Martell VSOP",
+            "category": "Cognac",
+            "cantidad": undefined,
+            "price": [180, 2340]
+        },
+        {
+            "title": "Hennesy VSOP",
+            "category": "Cognac",
+            "cantidad": undefined,
+            "price": [235, 3055]
+        },
+
+        {
+            "title": "Pure Irish",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 230
+        },
+        {
+            "title": "Ninfa",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 190
+        },
+        {
+            "title": "Johnie Beer",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 180
+        },
+        {
+            "title": "Extra Paloma",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 175
+        },
+        {
+            "title": "Tropical Black",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 155
+        },
+        {
+            "title": "Hada Verde",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 150
+        },
+        {
+            "title": "Margarita Frozen",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 150
+        },
+        {
+            "title": "Lemon Ginger",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 150
+        },
+        {
+            "title": "Submarine",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 145
+        },
+        {
+            "title": "Long Island Iced Tea",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 140
+        },
+        {
+            "title": "Pinky",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 120
+        },
+
+        {
+            "title": "Piedra",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 120
+        },
+        {
+            "title": "Whisky Cherry",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 100
+        },
+        {
+            "title": "Mojito",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 100
+        },
+        {
+            "title": "Ruso Blanco",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 100
+        },
+        {
+            "title": "Clericot",
+            "category": "Cocteles",
+            "cantidad": undefined,
+            "price": 290
+        },
+        {
+            "title": "Bufanda",
+            "category": "Shots",
+            "cantidad": undefined,
+            "price": 140
+        },
+        {
+            "title": "ABC",
+            "category": "Shots",
+            "cantidad": undefined,
+            "price": 135
+        },
+        {
+            "title": "Bob Esponja",
+            "category": "Shots",
+            "cantidad": undefined,
+            "price": 135
+        },
+        {
+            "title": "Balas De Plata",
+            "category": "Shots",
+            "cantidad": undefined,
+            "price": 130
+        },
+        {
+            "title": "Boligoma",
+            "category": "Shots",
+            "cantidad": undefined,
+            "price": 120
+        },
+        {
+            "title": "Semen De Pitufo",
+            "category": "Shots",
+            "cantidad": undefined,
+            "price": 100
+        },
+        {
+            "title": "Baby Mango",
+            "category": "Shots",
+            "cantidad": undefined,
+            "price": 60
+        },
+        {
+            "title": "Mumm Grand Cordon",
+            "category": "Champagne",
+            "cantidad": 750,
+            "price": 3200
+        },
+        {
+            "title": "Mumm Cordon Rouge",
+            "category": "Champagne",
+            "cantidad": 750,
+            "price": 2800
+        },
+        {
+            "title": "Moet Chandon",
+            "category": "Champagne",
+            "cantidad": undefined,
+            "price": 2100
+        },
+        {
+            "title": "De La Casa",
+            "category": "Vino Blanco",
+            "cantidad": 750,
+            "price": 400
+        },
+        {
+            "title": "Zocajillo",
+            "category": "Carajillos",
+            "cantidad": undefined,
+            "price": 150
+        },
+        {
+            "title": "Agave Carajillo",
+            "category": "Carajillo",
+            "cantidad": undefined,
+            "price": 140
+        },
+
+        {
+            "title": "Irish Coffee",
+            "category": "Cafe y Te",
+            "cantidad": undefined,
+            "price": 130
+        },
+        {
+            "title": "Americano",
+            "category": "Cafe y Te",
+            "cantidad": undefined,
+            "price": 40
+        },
+        {
+            "title": "Te De Sabores",
+            "category": "Cafe y Te",
+            "cantidad": undefined,
+            "price": 45
+        },
+        {
+            "title": "Red Bull",
+            "category": "Bebidas",
+            "cantidad": 250,
+            "price": 70
+        },
+        {
+            "title": "Conga",
+            "category": "Bebidas",
+            "cantidad": 330,
+            "price": 60
+        },
+        {
+            "title": "Piñada",
+            "category": "Bebidas",
+            "cantidad": 330,
+            "price": 60
+        },
+        {
+            "title": "Clamato",
+            "category": "Bebidas",
+            "cantidad": 330,
+            "price": 60
+        },
+        {
+            "title": "Jugo",
+            "category": "Bebidas",
+            "cantidad": 330,
+            "price": 40
+        },
+        {
+            "title": "Topo Chico",
+            "category": "Bebidas",
+            "cantidad": 330,
+            "price": 40
+        },
+        {
+            "title": "Refresco",
+            "category": "Bebidas",
+            "cantidad": 235,
+            "price": 35
+        },
+        {
+            "title": "Agua",
+            "category": "Bebidas",
+            "cantidad": 355,
+            "price": 30
+        },
+    ]
+
     //Mostrar Carrito * Open/Close
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => {
@@ -323,6 +1035,7 @@ export const ContextProvider = ({ children }) => {
     return (
         <CelticsContext.Provider value={{
             Alimentos,
+            Bebidas,
             isOpen,
             setIsOpen,
             toggleMenu,

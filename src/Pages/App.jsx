@@ -14,6 +14,7 @@ import Reportes from './Reportes'
 import SucCondesa from './SucursalCondesa/SucCondesa'
 import SobreNosotros from './SucursalCondesa/SobreNosotros'
 import IndexCondesa from './SucursalCondesa/IndexCondesa'
+import Productos from './Productos'
 import '../App.css'
 
 
@@ -34,8 +35,8 @@ const AppRoutes = () => {
           element: <Index />
         },
         {
-          path: '/home/inventario',
-          element: <Inventario />
+          path: '/home/productos',
+          element: <Productos />
         },
         {
           path: '/home/ventas',
@@ -44,6 +45,10 @@ const AppRoutes = () => {
         {
           path: '/home/reportes',
           element: <Reportes />
+        },
+        {
+          path: '/home/inventario',
+          element: <Inventario />
         },
       ],
     },
@@ -65,7 +70,7 @@ const AppRoutes = () => {
         },
         {
           path: '/condesa/sobrenosotros',
-          element: <SobreNosotros/>,
+          element: <SobreNosotros />,
         }
       ],
     },
@@ -85,7 +90,6 @@ const AppRoutes = () => {
       path: '/my-order',
       element: <MyOrder />,
     },
-
   ])
   return routes
 }

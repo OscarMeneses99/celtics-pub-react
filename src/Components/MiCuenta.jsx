@@ -5,7 +5,7 @@ const MiCuenta = () => {
     const context = useContext(CelticsContext)
     const user = JSON.parse(localStorage.getItem('user'))
     return (
-        <div className="desktop-menu absolute right-0 mx-2">
+        <div className="desktop-menu absolute right-0 mx-2 bg-white">
             <ul>
                 <li>
                     <p className="title text-black/60">{user.name} {user.lastname}</p>

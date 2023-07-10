@@ -1,6 +1,6 @@
-const Card = (data) => {
+const CardAlimentos = (data) => {
   return (
-    <aside className="p-4 md:w-1/2 lg:w-1/3">
+    <aside className="p-4 md:w-1/2 lg:w-11/12">
       <div className="bg-white rounded-lg shadow-md p-4">
         <p className="text-lg font-bold">{data.data.title}</p>
         <p className="text-gray-700">${data.data.price}</p>
@@ -14,4 +14,4 @@ const Card = (data) => {
   )
 }
 
-export default Card
+export default CardAlimentos

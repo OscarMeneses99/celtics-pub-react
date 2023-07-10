@@ -22,10 +22,10 @@ const Navbar = () => {
                     </li>
                     <li className="font-medium text-lg">
                         <NavLink
-                            to='/home/inventario'
+                            to='/home/productos'
                             className={({ isActive }) => isActive ? activeStyle : undefined}
                         >
-                            Inventario
+                            Agregar Productos
                         </NavLink>
                     </li>
                     <li className="font-medium text-lg">
@@ -34,14 +34,6 @@ const Navbar = () => {
                             className={({ isActive }) => isActive ? activeStyle : undefined}
                         >
                             Ventas
-                        </NavLink>
-                    </li>
-                    <li className="font-medium text-lg">
-                        <NavLink
-                            to='/home/reportes'
-                            className={({ isActive }) => isActive ? activeStyle : undefined}
-                        >
-                            Reportes
                         </NavLink>
                     </li>
                 </ul>
