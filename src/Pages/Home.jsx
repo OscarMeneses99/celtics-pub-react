@@ -1,5 +1,5 @@
-import Navbar from "../Components/Navbar"
-import Layout from "../Components/Layout"
+import Navbar from "../Components/Navbar.jsx"
+import Layout from "../Components/Layout.jsx"
 import { Outlet } from "react-router-dom"
 
 const Home = () => {

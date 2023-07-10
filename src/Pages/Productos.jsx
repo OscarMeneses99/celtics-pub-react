@@ -1,4 +1,4 @@
-import Layout from "../Components/Layout"
+import Layout from "../Components/Layout.jsx"
 import CreateProduct from "../Components/ProductosCRUD/CreateProductos"
 
 const Productos = () => {

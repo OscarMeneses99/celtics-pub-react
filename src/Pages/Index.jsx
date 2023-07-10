@@ -1,4 +1,4 @@
-import Layout from "../Components/Layout"
+import Layout from "../Components/Layout.jsx"
 import logo from '../Images/logo-celtics.png'
 
 const Index = () => {
